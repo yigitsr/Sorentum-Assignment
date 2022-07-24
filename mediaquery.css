@@ -1,0 +1,17 @@
+@media (max-width: 678px) {
+
+    form {
+        /* background-color: rgb(163, 162, 162); */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 0;
+        margin-top: 1em;
+
+
+    }
+
+
+
+
+}

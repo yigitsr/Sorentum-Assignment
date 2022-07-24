@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f7f9;
+  font-family: sans-serif;
+}
+body #sectionFirst {
+  width: 800px;
+  margin-left: 6em;
+  margin-top: 1.5em;
+}
+body #sectionFirst .breadcrumb {
+  list-style: none;
+  background-color: #f5f7f9;
+}
+body #sectionFirst .breadcrumb li {
+  display: inline;
+  font-size: 0.9em;
+}
+body #sectionFirst .breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+}
+body #sectionFirst .breadcrumb li #yellowText {
+  color: #f29e1d;
+  font-weight: bold;
+}
+body #sectionFirst .breadcrumb li #yellowText:hover {
+  color: #9c7842;
+}
+body #sectionFirst .breadcrumb li a {
+  color: #a7afb4;
+  text-decoration: none;
+  padding-right: 0.5em;
+}
+body #sectionFirst .breadcrumb li a:hover {
+  color: #7f94a6;
+}
+body #sectionFirst .breadcrumb li a #yellowArrow {
+  color: #ff8000;
+}
+body #sectionFirst h1 {
+  color: #486072;
+  font-size: 1.4em;
+  margin-top: 0.6em;
+}
+body #sectionFirst #select {
+  background-color: #ffffff;
+  color: #0a191f;
+  font-weight: bold;
+  margin-top: 1.5em;
+  width: 20em;
+  height: 3.2em;
+  border-radius: 0.6em;
+  border: solid #f5f7f9;
+  filter: drop-shadow(1px 1px 5px #d0d0d0);
+}
+body #sectionFirst #search {
+  background-color: #ffffff;
+  color: #0a191f;
+  font-weight: bold;
+  margin-left: 1em;
+  width: 25em;
+  height: 3.2em;
+  border-radius: 0.6em;
+  border: solid #f5f7f9;
+  filter: drop-shadow(1px 1px 5px #d0d0d0);
+}
+body .cardsDiv {
+  width: 87%;
+  margin-left: 6em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+body .cardsDiv .cards {
+  background-color: #ffffff;
+  color: #0a191f;
+  font-weight: bold;
+  width: 17em;
+  height: 22em;
+  border-radius: 0.6em;
+  border: solid #f5f7f9;
+  filter: drop-shadow(1px 1px 5px #d0d0d0);
+  margin: 1em 1em 1em 0;
+}
+body .cardsDiv #cardOne p,
+body .cardsDiv #cardTwo p,
+body .cardsDiv #cardThree p {
+  color: #a7afb4;
+  text-align: right;
+  margin: 1em 1em 0 0;
+  font-size: 0.7em;
+}
+body .cardsDiv #cardOne h4,
+body .cardsDiv #cardTwo h4,
+body .cardsDiv #cardThree h4 {
+  color: #ff8000;
+  text-align: left;
+  margin-left: 1em;
+  margin-top: 0.5em;
+  font-size: 0.8em;
+}
+body .cardsDiv #cardOne h3,
+body .cardsDiv #cardTwo h3,
+body .cardsDiv #cardThree h3 {
+  color: #0a191f;
+  text-align: left;
+  margin: 0.2em 0 0 0.7em;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+body .cardsDiv #cardOne #loremText,
+body .cardsDiv #cardTwo #loremText,
+body .cardsDiv #cardThree #loremText {
+  color: #a7afb4;
+  text-align: left;
+  margin: 1em 0 0 1em;
+}
+body .cardsDiv #cardOne .square,
+body .cardsDiv #cardTwo .square,
+body .cardsDiv #cardThree .square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  background-color: #173a47;
+}
+body .cardsDiv #cardOne #squareOne,
+body .cardsDiv #cardTwo #squareOne,
+body .cardsDiv #cardThree #squareOne {
+  margin: -1.9em 0 0 0.5em;
+}
+body .cardsDiv #cardOne #squareTwo,
+body .cardsDiv #cardTwo #squareTwo,
+body .cardsDiv #cardThree #squareTwo {
+  margin: -2em 0 0 0.5em;
+}
+body .cardsDiv #cardOne #squareThree,
+body .cardsDiv #cardTwo #squareThree,
+body .cardsDiv #cardThree #squareThree {
+  margin: -2em 0 0 0.5em;
+}
+body .cardsDiv #cardOne #textOne,
+body .cardsDiv #cardTwo #textOne,
+body .cardsDiv #cardThree #textOne {
+  color: #a7afb4;
+  text-align: left;
+  margin-left: 4.5em;
+  margin-top: 2.3em;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+body .cardsDiv #cardOne #textTwo,
+body .cardsDiv #cardTwo #textTwo,
+body .cardsDiv #cardThree #textTwo {
+  color: #a7afb4;
+  text-align: left;
+  margin-left: 4.5em;
+  margin-top: 2.3em;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+body .cardsDiv #cardOne #textThree,
+body .cardsDiv #cardTwo #textThree,
+body .cardsDiv #cardThree #textThree {
+  color: #a7afb4;
+  text-align: left;
+  margin-left: 4.5em;
+  margin-top: 2.3em;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+body .cardsDiv #cardOne #detay,
+body .cardsDiv #cardTwo #detay,
+body .cardsDiv #cardThree #detay {
+  color: #173a47;
+  font-weight: bold;
+  font-size: 0.8em;
+  margin-top: 1.2em;
+}
+body .cardsDiv #cardOne #detayArrow,
+body .cardsDiv #cardTwo #detayArrow,
+body .cardsDiv #cardThree #detayArrow {
+  color: #ff8000;
+}

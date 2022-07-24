@@ -1,0 +1,227 @@
+$backgroundColor : #f5f7f9;
+$golden-yellow : #ffc522;
+$orange : #ff8000;
+$white : #ffffff;
+$blue : #486072;
+$cool-grey : #a7afb4;
+$black : #231f20;
+$whiteTwo : #fafafa;
+$darkBlue : #173a47;
+$orangeTwo : #f29e1d;
+$yellowTwo : #fbe801;
+$margin-left: 6em;
+
+//css reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: $backgroundColor;
+    font-family: sans-serif;
+
+    #sectionFirst {
+        // outline: solid rgb(200, 200, 200);
+        width: 800px;
+        margin-left: $margin-left;
+        margin-top: 1.5em;
+
+        .breadcrumb {
+            list-style: none;
+            background-color: $backgroundColor;
+
+
+            li {
+                display: inline;
+                font-size: .9em;
+
+
+                +li:before {
+                    padding: 8px;
+                    color: black;
+                }
+
+                #yellowText {
+                    color: $orangeTwo;
+                    font-weight: bold;
+
+                    &:hover {
+                        color: #9c7842
+                    }
+                }
+
+                a {
+                    color: $cool-grey;
+                    text-decoration: none;
+                    padding-right: .5em;
+
+                    &:hover {
+                        color: #7f94a6;
+                    }
+
+                    #yellowArrow {
+                        color: $orange;
+                    }
+
+                }
+            }
+        }
+
+        h1 {
+            color: #486072;
+            font-size: 1.4em;
+            margin-top: .6em;
+        }
+
+        #select {
+            background-color: $white;
+            color: #0a191f;
+            font-weight: bold;
+            margin-top: 1.5em;
+            width: 20em;
+            height: 3.2em;
+            border-radius: .6em;
+            border: solid $backgroundColor;
+            filter: drop-shadow(1px 1px 5px #d0d0d0);
+        }
+
+        #search {
+            background-color: $white;
+            color: #0a191f;
+            font-weight: bold;
+            margin-left: 1em;
+            width: 25em;
+            height: 3.2em;
+            border-radius: .6em;
+            border: solid $backgroundColor;
+            filter: drop-shadow(1px 1px 5px #d0d0d0);
+        }
+
+    }
+
+
+    .cardsDiv {
+        // outline: solid rgb(200, 200, 200);
+        width: 87%;
+        margin-left: $margin-left;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+
+        .cards {
+            background-color: $white;
+            color: #0a191f;
+            font-weight: bold;
+            width: 17em;
+            height: 22em;
+            border-radius: .6em;
+            border: solid $backgroundColor;
+            filter: drop-shadow(1px 1px 5px #d0d0d0);
+            margin: 1em 1em 1em 0;
+
+        }
+
+        #cardOne,
+        #cardTwo,
+        #cardThree {
+            p {
+                color: #a7afb4;
+                text-align: right;
+                margin: 1em 1em 0 0;
+                font-size: .7em;
+            }
+
+            h4 {
+                color: $orange;
+                text-align: left;
+                margin-left: 1em;
+                margin-top: .5em;
+                font-size: .8em;
+
+
+            }
+
+            h3 {
+                color: #0a191f;
+                text-align: left;
+                margin: .2em 0 0 .7em;
+                font-size: 1.1em;
+                font-weight: bold;
+            }
+
+            #loremText {
+                color: $cool-grey;
+                text-align: left;
+                margin: 1em 0 0 1em;
+            }
+
+            .square {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 45px;
+                height: 45px;
+                border-radius: 50px;
+                background-color: $darkBlue;
+            }
+
+            #squareOne {
+                margin: -1.9em 0 0 .5em;
+            }
+
+            #squareTwo {
+                margin: -2em 0 0 .5em;
+
+            }
+
+            #squareThree {
+                margin: -2em 0 0 .5em;
+
+            }
+
+            #textOne {
+                color: $cool-grey;
+                text-align: left;
+                margin-left: 4.5em;
+                margin-top: 2.3em;
+                font-size: .9em;
+                font-weight: bold;
+            }
+
+            #textTwo {
+                color: $cool-grey;
+                text-align: left;
+                margin-left: 4.5em;
+                margin-top: 2.3em;
+                font-size: .9em;
+                font-weight: bold;
+            }
+
+            #textThree {
+                color: $cool-grey;
+                text-align: left;
+                margin-left: 4.5em;
+                margin-top: 2.3em;
+                font-size: .9em;
+                font-weight: bold;
+            }
+
+
+            #detay {
+                color: $darkBlue;
+                font-weight: bold;
+                font-size: .8em;
+                margin-top: 1.2em;
+            }
+
+            #detayArrow {
+                color: $orange;
+            }
+        }
+
+    }
+}
